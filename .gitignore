@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Node
+node_modules/
+.next/
+
+# Secrets
+*.pem
+*.key
